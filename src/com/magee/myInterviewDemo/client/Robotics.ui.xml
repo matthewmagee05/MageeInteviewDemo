@@ -1,0 +1,33 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	 xmlns:dp="urn:import:com.google.gwt.user.datepicker.client" 
+	>
+	
+  	
+	<ui:style>
+	.border {
+		margin-top: 5%;
+		padding: 5%;
+		border: 2px solid black;
+	}
+	</ui:style>
+	<g:HTMLPanel styleName='{style.border}'>
+	    <div class="row">
+			<div class="col-12">
+				<h2>Project 2</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-4">
+				<form style="margin-top:5%; padding:5%; border: 2px solid black;">
+				    <label for="text" style="padding-right: 10px;">Name</label>
+					<g:TextBox ui:field="name" styleName='{style.border}'></g:TextBox> <br></br>
+					<label for="pass">Started</label>
+					<dp:DateBox ui:field="date" styleName='{style.border}' ></dp:DateBox><br></br>
+					<g:Button ui:field="reset" styleName='{style.border}'></g:Button>
+				</form>
+			</div>
+		</div>
+	</g:HTMLPanel>
+</ui:UiBinder> 

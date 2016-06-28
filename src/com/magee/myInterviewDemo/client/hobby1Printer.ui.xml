@@ -1,0 +1,27 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	.border {
+		margin-top: 5%;
+		padding: 5%;
+		border: 2px solid black;
+	}
+	</ui:style>
+	<g:HTMLPanel styleName='{style.border}'>
+		<div class="row">
+			<div class="col-3">
+			</div>
+			<div class="col-6">
+				<img src="images/yoda.JPG" class="textPad" alt="3D Printer image"></img>
+				<h2>3D Printing</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco .</p>
+			</div>
+			<div class="col-3">
+			</div>
+		</div>
+	</g:HTMLPanel>
+</ui:UiBinder> 
